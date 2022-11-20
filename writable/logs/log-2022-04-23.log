@@ -1,0 +1,91 @@
+CRITICAL - 2022-04-23 23:49:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:50:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:50:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:53:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:53:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:54:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:54:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:55:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:58:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:58:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:58:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:59:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-23 23:59:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,159 @@
+CRITICAL - 2022-02-13 00:09:03 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 03:20:17 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\simag\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\simag\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\simag\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-13 03:26:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 03:26:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 03:26:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 16:26:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 03:26:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 03:26:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-13 05:31:17 --> Undefined variable $val
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(17): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 06:22:46 --> file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 464)
+#1 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(464): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\simag\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-13 08:45:56 --> Undefined variable $val
+#0 C:\xampp\htdocs\simag\app\Views\tambahaktivitas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('tambahaktivitas', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\TambahAktivitas.php(61): view('tambahaktivitas')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\TambahAktivitas->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TambahAktivitas))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 08:46:04 --> Undefined variable $val
+#0 C:\xampp\htdocs\simag\app\Views\tambahaktivitas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('tambahaktivitas', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\TambahAktivitas.php(61): view('tambahaktivitas')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\TambahAktivitas->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TambahAktivitas))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 08:48:04 --> Undefined variable $val
+#0 C:\xampp\htdocs\simag\app\Views\tambahaktivitas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('tambahaktivitas', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\TambahAktivitas.php(61): view('tambahaktivitas')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\TambahAktivitas->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TambahAktivitas))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:00:50 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\simag\app\Views\aktivitasharian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('aktivitasharian...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\AktivitasHarian.php(17): view('aktivitasharian...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:02:38 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\simag\app\Views\aktivitasharian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('aktivitasharian...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\AktivitasHarian.php(23): view('aktivitasharian...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:06:35 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\simag\app\Views\aktivitasharian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('aktivitasharian...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\AktivitasHarian.php(23): view('aktivitasharian...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:08:18 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\simag\app\Views\aktivitasharian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('aktivitasharian...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\AktivitasHarian.php(23): view('aktivitasharian...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:09:47 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\simag\app\Views\aktivitasharian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('aktivitasharian...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\AktivitasHarian.php(23): view('aktivitasharian...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:12:15 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\simag\app\Views\aktivitasharian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('aktivitasharian...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\AktivitasHarian.php(23): view('aktivitasharian...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-13 09:17:10 --> Undefined variable $val
+#0 C:\xampp\htdocs\simag\app\Views\tambahaktivitas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('tambahaktivitas', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\TambahAktivitas.php(62): view('tambahaktivitas')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\TambahAktivitas->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TambahAktivitas))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,114 @@
+CRITICAL - 2022-03-08 02:15:55 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\simag\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\simag\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\simag\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 02:23:26 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: The requested name is valid, but no data of the requested type was found. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 102)
+#1 C:\xampp\htdocs\simag\app\Views\halamanutama.php(102): file_get_contents('http://www.geop...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#5 C:\xampp\htdocs\simag\app\Controllers\Home.php(25): view('halamanutama')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-08 02:32:43 --> Undefined variable $lat
+#0 C:\xampp\htdocs\simag\app\Views\halamanutama.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Home.php(25): view('halamanutama')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 02:33:36 --> Undefined array key "lat"
+#0 C:\xampp\htdocs\simag\app\Views\halamanutama.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Home.php(25): view('halamanutama')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 02:52:06 --> Undefined array key "latitude"
+#0 C:\xampp\htdocs\simag\app\Views\halamanutama.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Home.php(25): view('halamanutama')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-08 05:45:47 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 05:47:19 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 05:47:49 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 05:52:20 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 06:00:30 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 06:00:31 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 07:01:21 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 08:12:08 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\simag\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\simag\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\simag\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 08:41:52 --> Unmatched ')'
+#0 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('admin/datapembi...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Admin.php(52): view('admin/datapembi...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->dataPembimbing()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

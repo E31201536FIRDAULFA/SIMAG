@@ -1,0 +1,1404 @@
+ERROR - 2022-11-11 01:00:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`)) in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ni...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 01:00:18 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 01:09:07 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ni...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 01:09:07 --> Column 'iduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:iduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 14:14:54 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(79): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-11 14:14:54 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:14:54\', \'2022-11-11 14:14:54\', \'2022-11-11 14:14:54\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:14:54\', \'2022-11-11 14:14:54\', \'2022-11-11 14:14:54\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:14:54\', \'2022-11-11 14:14:54\', \'2022-11-11 14:14:54\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (:user_id:, :date:, :pulang:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Peserta.php(79): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->addAbsen()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 14:15:16 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(79): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-11 14:15:16 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15:16\', \'2022-11-11 14:15:16\', \'2022-11-11 14:15:16\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15:16\', \'2022-11-11 14:15:16\', \'2022-11-11 14:15:16\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15:16\', \'2022-11-11 14:15:16\', \'2022-11-11 14:15:16\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (:user_id:, :date:, :pulang:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Peserta.php(79): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->addAbsen()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 14:15:18 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(79): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-11 14:15:18 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15:18\', \'2022-11-11 14:15:18\', \'2022-11-11 14:15:18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15:18\', \'2022-11-11 14:15:18\', \'2022-11-11 14:15:18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15:18\', \'2022-11-11 14:15:18\', \'2022-11-11 14:15:18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absen` (`user_id`, `date`, `pulang`, `created_at`, `updated_at`) VALUES (:user_id:, :date:, :pulang:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Peserta.php(79): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->addAbsen()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 01:15:49 --> mysqli_sql_exception: Column 'userId' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ak...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(243): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->tambahAktivitas()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 01:15:49 --> Column 'userId' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `aktivitas` (`userId`, `date`, `mulai`, `selesai`, `keterangan`, `status`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15\', \'15:15\', \'lzm\', 0, \'2022-11-11 01:15:49\', \'2022-11-11 01:15:49\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `aktivitas` (`userId`, `date`, `mulai`, `selesai`, `keterangan`, `status`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15\', \'15:15\', \'lzm\', 0, \'2022-11-11 01:15:49\', \'2022-11-11 01:15:49\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `aktivitas` (`userId`, `date`, `mulai`, `selesai`, `keterangan`, `status`, `created_at`, `updated_at`) VALUES (NULL, \'2022-11-11\', \'14:15\', \'15:15\', \'lzm\', 0, \'2022-11-11 01:15:49\', \'2022-11-11 01:15:49\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aktivitas` (`userId`, `date`, `mulai`, `selesai`, `keterangan`, `status`, `created_at`, `updated_at`) VALUES (:userId:, :date:, :mulai:, :selesai:, :keterangan:, :status:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Peserta.php(243): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahAktivitas()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 01:19:59 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ni...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 01:19:59 --> Column 'iduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'9\', \'9\', \'9\', \'9\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'9\', \'9\', \'9\', \'9\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'9\', \'9\', \'9\', \'9\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai` (`iduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:iduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 01:36:14 --> Undefined array key "iduser"
+in APPPATH\Views\pembimbing\datanilai.php on line 20.
+ 1 APPPATH\Views\pembimbing\datanilai.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'APPPATH\\Views\\pembimbing\\datanilai.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(351): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 02:17:41 --> Invalid file: templates/sidebarPeserta.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/sidebarPeserta.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/sidebarPeserta', [], true)
+ 3 APPPATH\Controllers\Peserta.php(366): view('templates/sidebarPeserta')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->report()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 02:17:49 --> Invalid file: templates/sidebarPeserta.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/sidebarPeserta.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/sidebarPeserta', [], true)
+ 3 APPPATH\Controllers\Peserta.php(366): view('templates/sidebarPeserta')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->report()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 02:18:23 --> Invalid file: peserta/report.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peserta/report.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/report.php', [], true)
+ 3 APPPATH\Controllers\Peserta.php(368): view('peserta/report.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->report()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 08:35:00 --> Invalid file: pembimbing/report.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembimbing/report.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(323): view('pembimbing/report.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 08:40:17 --> cURL error 55: OpenSSL SSL_write: Connection was aborted, errno 10053 (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 211.
+ 1 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), [...])
+ 2 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 3 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 4 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 5 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 6 VENDORPATH\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 7 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 8 VENDORPATH\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 9 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(61): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+10 VENDORPATH\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+11 VENDORPATH\guzzlehttp\guzzle\src\Client.php(331): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+12 VENDORPATH\guzzlehttp\guzzle\src\Client.php(107): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), [...])
+13 VENDORPATH\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), [...])
+14 VENDORPATH\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(47): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), [...])
+15 VENDORPATH\google\auth\src\OAuth2.php(544): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+16 VENDORPATH\google\apiclient\src\Client.php(247): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle7HttpHandler))
+17 APPPATH\Controllers\AuthGoogle.php(31): Google\Client->fetchAccessTokenWithAuthCode('4/0AfgeXvu0Dfa0ce9U3EsLQ8NpUyJ4vNy_I51nnyV7KviRstNgQyfBKXanjQFOpe4Lv5pf_A')
+18 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+19 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+20 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 09:11:40 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Peserta.php on line 381.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Peserta/getAbsen')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Peserta/getAbsen')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('Peserta/getAbsen')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 09:29:15 --> Undefined variable $nilai
+in APPPATH\Views\peserta\datadoc.php on line 46.
+ 1 APPPATH\Views\peserta\datadoc.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\peserta\\datadoc.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\datadoc.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/datadoc.php', [], true)
+ 5 APPPATH\Controllers\Peserta.php(387): view('peserta/datadoc.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->datadoc()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 09:29:37 --> Undefined variable $setuju
+in APPPATH\Views\peserta\datadoc.php on line 77.
+ 1 APPPATH\Views\peserta\datadoc.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setuju', 'APPPATH\\Views\\peserta\\datadoc.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\datadoc.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/datadoc.php', [], true)
+ 5 APPPATH\Controllers\Peserta.php(387): view('peserta/datadoc.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->datadoc()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 09:36:01 --> Undefined array key "periode"
+in APPPATH\Views\peserta\datadoc.php on line 50.
+ 1 APPPATH\Views\peserta\datadoc.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "periode"', 'APPPATH\\Views\\peserta\\datadoc.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\datadoc.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/datadoc.php', [], true)
+ 5 APPPATH\Controllers\Peserta.php(387): view('peserta/datadoc.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->datadoc()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 18:32:15 --> Undefined variable $i
+in APPPATH\Views\peserta\datadoc.php on line 30.
+ 1 APPPATH\Views\peserta\datadoc.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'APPPATH\\Views\\peserta\\datadoc.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\datadoc.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/datadoc.php', [], true)
+ 5 APPPATH\Controllers\Peserta.php(405): view('peserta/datadoc.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 18:54:51 --> Undefined variable $data
+in APPPATH\Views\peserta\datadoc.php on line 28.
+ 1 APPPATH\Views\peserta\datadoc.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\peserta\\datadoc.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\datadoc.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/datadoc.php', [], true)
+ 5 APPPATH\Controllers\Peserta.php(459): view('peserta/datadoc.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:03:31 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Peserta.php(452): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:05:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Peserta.php(452): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:19:19 --> Invalid file: pembimbing/report.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembimbing/report.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(324): view('pembimbing/report.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:33:11 --> Undefined array key "idduser"
+in APPPATH\Views\pembimbing\report.php on line 78.
+ 1 APPPATH\Views\pembimbing\report.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idduser"', 'APPPATH\\Views\\pembimbing\\report.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(324): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:36:01 --> Undefined array key "idduser"
+in APPPATH\Views\pembimbing\report.php on line 78.
+ 1 APPPATH\Views\pembimbing\report.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idduser"', 'APPPATH\\Views\\pembimbing\\report.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(324): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:42:14 --> Undefined array key "idduser"
+in APPPATH\Views\pembimbing\report.php on line 78.
+ 1 APPPATH\Views\pembimbing\report.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idduser"', 'APPPATH\\Views\\pembimbing\\report.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(324): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:51:28 --> Too few arguments to function App\Controllers\Pembimbing::report(), 0 passed in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Pembimbing.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:53:37 --> Too few arguments to function App\Controllers\Pembimbing::report(), 0 passed in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Pembimbing.php on line 306.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 19:53:46 --> mysqli_sql_exception: Unknown column 'info_peserta.idduser' in 'on clause' in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-11 19:53:46 --> Unknown column 'info_peserta.idduser' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+JOIN `info_peserta` ON `user`.`id`=`info_peserta`.`idduser`
+WHERE `role` = 3
+AND `status` = 2
+AND `info_peserta`.`endDate` > \'2022-11-11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `info_peserta` ON `user`.`id`=`info_peserta`.`idduser`
+WHERE `role` = 3
+AND `status` = 2
+AND `info_peserta`.`endDate` > \'2022-11-11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `info_peserta` ON `user`.`id`=`info_peserta`.`idduser`
+WHERE `role` = 3
+AND `status` = 2
+AND `info_peserta`.`endDate` > \'2022-11-11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `info_peserta` ON `user`.`id`=`info_peserta`.`idduser`
+WHERE `role` = :role:
+AND `status` = :status:
+AND `info_peserta`.`endDate` > :info_peserta.endDate:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 19:55:38 --> mysqli_sql_exception: Unknown column 'info_peserta.endDate' in 'where clause' in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-11 19:55:38 --> Unknown column 'info_peserta.endDate' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2
+AND `info_peserta`.`endDate` > \'2022-11-11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2
+AND `info_peserta`.`endDate` > \'2022-11-11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2
+AND `info_peserta`.`endDate` > \'2022-11-11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = :role:
+AND `status` = :status:
+AND `info_peserta`.`endDate` > :info_peserta.endDate:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:56:46 --> Undefined variable $pendaftar
+in APPPATH\Views\pembimbing\report.php on line 37.
+ 1 APPPATH\Views\pembimbing\report.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendaftar', 'APPPATH\\Views\\pembimbing\\report.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(321): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:57:32 --> Undefined array key "userId"
+in APPPATH\Views\pembimbing\report.php on line 41.
+ 1 APPPATH\Views\pembimbing\report.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'APPPATH\\Views\\pembimbing\\report.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(321): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:59:18 --> Undefined variable $pendaftar
+in APPPATH\Views\pembimbing\report.php on line 37.
+ 1 APPPATH\Views\pembimbing\report.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendaftar', 'APPPATH\\Views\\pembimbing\\report.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(321): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 19:59:55 --> Undefined array key "userId"
+in APPPATH\Views\pembimbing\report.php on line 43.
+ 1 APPPATH\Views\pembimbing\report.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'APPPATH\\Views\\pembimbing\\report.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(321): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:00:10 --> Undefined array key "instansi"
+in APPPATH\Views\pembimbing\report.php on line 44.
+ 1 APPPATH\Views\pembimbing\report.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instansi"', 'APPPATH\\Views\\pembimbing\\report.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(321): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:03:03 --> Undefined array key "displin"
+in APPPATH\Views\pembimbing\report.php on line 50.
+ 1 APPPATH\Views\pembimbing\report.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "displin"', 'APPPATH\\Views\\pembimbing\\report.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(321): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:03:43 --> Undefined array key "displin"
+in APPPATH\Views\pembimbing\report.php on line 50.
+ 1 APPPATH\Views\pembimbing\report.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "displin"', 'APPPATH\\Views\\pembimbing\\report.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(320): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 20:05:03 --> mysqli_sql_exception: Not unique table/alias: 'report' in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-11 20:05:03 --> Not unique table/alias: 'report'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = :role:
+AND `status` = :status:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 20:06:40 --> mysqli_sql_exception: Not unique table/alias: 'report' in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-11 20:06:40 --> Not unique table/alias: 'report'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = 3
+AND `status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `report`
+JOIN `report` ON `user`.`id`=`report`.`idduser`
+WHERE `role` = :role:
+AND `status` = :status:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembimbing.php(310): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:09:49 --> Undefined array key "displin"
+in APPPATH\Views\pembimbing\report.php on line 50.
+ 1 APPPATH\Views\pembimbing\report.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "displin"', 'APPPATH\\Views\\pembimbing\\report.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(320): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:11:31 --> Undefined array key "displin"
+in APPPATH\Views\pembimbing\report.php on line 50.
+ 1 APPPATH\Views\pembimbing\report.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "displin"', 'APPPATH\\Views\\pembimbing\\report.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(320): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:24:07 --> Undefined array key "idduser"
+in APPPATH\Views\pembimbing\halamannilai.php on line 38.
+ 1 APPPATH\Views\pembimbing\halamannilai.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idduser"', 'APPPATH\\Views\\pembimbing\\halamannilai.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\halamannilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/halamannilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(339): view('pembimbing/halamannilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:28:48 --> Undefined array key "idduser"
+in APPPATH\Views\pembimbing\halamannilai.php on line 38.
+ 1 APPPATH\Views\pembimbing\halamannilai.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idduser"', 'APPPATH\\Views\\pembimbing\\halamannilai.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\halamannilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/halamannilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/halamannilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:29:13 --> Undefined array key "acid"
+in APPPATH\Views\pembimbing\halamannilai.php on line 38.
+ 1 APPPATH\Views\pembimbing\halamannilai.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "acid"', 'APPPATH\\Views\\pembimbing\\halamannilai.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\halamannilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/halamannilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/halamannilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 20:32:44 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(296): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('93')
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 20:32:44 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(296): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('93')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 20:34:03 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(296): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('93')
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 20:34:03 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(296): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('93')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 20:34:11 --> Undefined array key "idduser"
+in APPPATH\Views\pembimbing\halamannilai.php on line 39.
+ 1 APPPATH\Views\pembimbing\halamannilai.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idduser"', 'APPPATH\\Views\\pembimbing\\halamannilai.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\halamannilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/halamannilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/halamannilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:24:09 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\pembimbing\halamannilai.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/halamannilai.php', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(341): view('pembimbing/halamannilai.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:29:36 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(304): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('94')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:34:08 --> Undefined variable $value
+in APPPATH\Views\pembimbing\datanilai.php on line 22.
+ 1 APPPATH\Views\pembimbing\datanilai.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\pembimbing\\datanilai.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(322): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:35:05 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(304): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('94')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:37:57 --> Too few arguments to function App\Controllers\Pembimbing::nilai(), 0 passed in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Pembimbing.php on line 255.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:38:23 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(304): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 21:39:15 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(296): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 21:39:15 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(296): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:39:23 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(304): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:46:34 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 21:46:52 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(295): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 21:46:52 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(295): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:55:20 --> Invalid file: pembimbing/datadoc.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembimbing/datadoc.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datadoc.php', [], true)
+ 3 APPPATH\Controllers\Peserta.php(460): view('pembimbing/datadoc.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:55:35 --> Undefined variable $data
+in APPPATH\Views\peserta\datadoc.php on line 25.
+ 1 APPPATH\Views\peserta\datadoc.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\peserta\\datadoc.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\datadoc.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/datadoc.php', [], true)
+ 5 APPPATH\Controllers\Peserta.php(460): view('peserta/datadoc.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:57:52 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 21:58:05 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(295): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 21:58:05 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(295): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 21:58:52 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:01:17 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:01:23 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 22:02:14 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(295): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 22:02:14 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(295): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:02:18 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:02:19 --> Invalid file: templates/footer
+        .php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer
+        .php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/footer
+        ', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(303): view('templates/footer
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 22:11:53 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(433): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 22:11:53 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Peserta.php(433): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 22:17:37 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(432): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 22:17:37 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Peserta.php(432): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:21:23 --> Call to undefined method App\Models\NilaiModel::whereget
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Peserta.php(446): CodeIgniter\Model->__call('whereget', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:22:41 --> Call to undefined method App\Models\NilaiModel::whereget
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Peserta.php(446): CodeIgniter\Model->__call('whereget', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:23:48 --> Call to undefined method App\Models\NilaiModel::whereget
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Peserta.php(446): CodeIgniter\Model->__call('whereget', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:24:15 --> Call to undefined method App\Models\NilaiModel::whereget
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Peserta.php(446): CodeIgniter\Model->__call('whereget', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:25:10 --> Call to undefined method App\Models\NilaiModel::whereget
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Peserta.php(446): CodeIgniter\Model->__call('whereget', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:27:16 --> Call to undefined method App\Models\NilaiModel::whereget
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Peserta.php(446): CodeIgniter\Model->__call('whereget', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->unggahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 22:28:33 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(432): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 22:28:33 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Peserta.php(432): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 22:33:25 --> mysqli_sql_exception: Column 'idduser' cannot be null in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(433): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 22:33:25 --> Column 'idduser' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (NULL, \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Peserta.php(433): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 22:52:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`simag`.`report`, CONSTRAINT `report_ibfk_1` FOREIGN KEY (`idduser`) REFERENCES `user` (`id`)) in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(433): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-11 22:52:50 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`report`, CONSTRAINT `report_ibfk_1` FOREIGN KEY (`idduser`) REFERENCES `user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'59\', \'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'59\', \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'59\', \'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `report` (`idduser`, `pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:idduser:, :pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Peserta.php(433): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahdoc()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

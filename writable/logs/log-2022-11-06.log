@@ -1,0 +1,187 @@
+CRITICAL - 2022-11-06 07:47:31 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:52:34 --> Array to string conversion
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:52:45 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:52:55 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:53:00 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:53:19 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 33.
+ 1 APPPATH\Controllers\AuthGoogle.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:08:22 --> cURL error 52: Empty reply from server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 210.
+ 1 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), [...])
+ 2 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 3 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 4 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 5 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 6 VENDORPATH\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 7 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 8 VENDORPATH\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 9 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(61): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+10 VENDORPATH\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+11 VENDORPATH\guzzlehttp\guzzle\src\Client.php(331): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+12 VENDORPATH\guzzlehttp\guzzle\src\Client.php(107): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), [...])
+13 VENDORPATH\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), [...])
+14 VENDORPATH\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(47): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), [...])
+15 VENDORPATH\google\auth\src\OAuth2.php(544): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+16 VENDORPATH\google\apiclient\src\Client.php(247): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle7HttpHandler))
+17 APPPATH\Controllers\AuthGoogle.php(31): Google\Client->fetchAccessTokenWithAuthCode('4/0AfgeXvtSzjY19wuZ9D9Opt-Gfx4nV93gS4sfurp8M_SR5hhPuAXBCh0-gSBJkFtmduviSg')
+18 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+19 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+20 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:14:30 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 09:02:47 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\AuthGoogle.php on line 76.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('AuthGoogle')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('AuthGoogle')
+ 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('AuthGoogle')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:09:07 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\Registrasi.php on line 12.
+ 1 APPPATH\Controllers\Registrasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Controllers\\Registrasi.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:15:12 --> Undefined variable $session
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:15:53 --> Undefined variable $session
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:15:54 --> Undefined variable $session
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:16:06 --> Attempt to read property "nama" on null
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:16:39 --> Undefined variable $session
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:16:53 --> Array callback must have exactly two elements
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 4 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:18:31 --> Attempt to read property "nama" on array
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on array', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 09:18:45 --> Array to string conversion
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 APPPATH\Views\peserta\notif.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\peserta\\notif.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\peserta\\notif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 5 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

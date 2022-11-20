@@ -1,0 +1,61 @@
+CRITICAL - 2022-03-22 03:23:58 --> Attempt to read property "startDate" on array
+#0 C:\xampp\htdocs\simag\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->getUser()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 03:35:28 --> Attempt to read property "startDate" on array
+#0 C:\xampp\htdocs\simag\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->getUser()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 03:35:41 --> Attempt to read property "startDate" on array
+#0 C:\xampp\htdocs\simag\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->getUser()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 03:35:45 --> Attempt to read property "startDate" on array
+#0 C:\xampp\htdocs\simag\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->getUser()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-22 10:53:10 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-03-22 10:53:10 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Admin.php(44): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->dataPembimbing()
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-22 11:00:35 --> syntax error, unexpected token ":", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/dataPembi...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Admin/dataPembi...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-22 11:00:44 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-03-22 11:00:44 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Admin.php(44): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->dataPembimbing()
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

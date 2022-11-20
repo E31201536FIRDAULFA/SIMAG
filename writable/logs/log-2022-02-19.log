@@ -1,0 +1,196 @@
+CRITICAL - 2022-02-19 04:56:57 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:00:02 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:00:14 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:00:21 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:00:41 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:00:43 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:00:45 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:01:58 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 05:02:11 --> Invalid file: dataaktivitas.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dataaktivitas.p...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('dataaktivitas.p...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(32): view('dataaktivitas.p...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->aktivitasTabel()
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-19 07:05:46 --> Too few arguments to function App\Controllers\Profil::editProfil(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 07:07:29 --> Too few arguments to function App\Controllers\Profil::editProfil(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 07:08:38 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\simag\app\Controllers\Profil.php on line 47
+#0 C:\xampp\htdocs\simag\app\Controllers\Profil.php(47): view('templates/heade...', NULL)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 07:09:54 --> Too few arguments to function App\Controllers\Profil::editProfil(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 07:11:38 --> Too few arguments to function App\Controllers\Profil::editProfil(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 07:11:43 --> Too few arguments to function App\Controllers\Profil::editProfil(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 07:11:55 --> Too few arguments to function App\Controllers\Profil::editProfil(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-19 07:15:00 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\simag\app\Controllers\Profil.php on line 48
+#0 C:\xampp\htdocs\simag\app\Controllers\Profil.php(48): view('templates/heade...', NULL)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 07:16:58 --> Undefined variable $user
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(51): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 07:20:02 --> Undefined variable $user
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(51): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 07:21:15 --> Undefined variable $user
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(51): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 07:23:17 --> Undefined variable $user
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(55): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 07:23:22 --> Undefined variable $user
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(55): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-19 08:13:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Profil.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->editProfil()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:38:51 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

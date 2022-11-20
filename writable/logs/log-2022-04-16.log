@@ -1,0 +1,694 @@
+CRITICAL - 2022-04-16 03:55:21 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:23 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:25 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:30 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:31 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:31 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:32 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:32 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:32 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:32 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:52 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:53 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 03:55:54 --> Too few arguments to function App\Controllers\Peserta::getAbsenKoordinat(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->getAbsenKoordinat()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 04:25:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 04:26:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 04:27:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 04:28:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 04:29:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 04:30:27 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 04:39:39 --> unlink(C:\xampp\htdocs\simag\writable\debugbar/debugbar_1650100677.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\simag\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1650101978, 20)
+#3 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\simag\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\simag\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 04:39:40 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\simag\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\simag\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\simag\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-16 04:53:46 --> Undefined variable $id
+#0 C:\xampp\htdocs\simag\app\Views\peserta\absensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/absensi...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(167): view('peserta/absensi...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->dataAbsen()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 04:54:10 --> Undefined variable $id
+#0 C:\xampp\htdocs\simag\app\Views\peserta\absensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/absensi...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(167): view('peserta/absensi...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->dataAbsen()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 04:54:12 --> Undefined variable $id
+#0 C:\xampp\htdocs\simag\app\Views\peserta\absensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/absensi...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(167): view('peserta/absensi...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->dataAbsen()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 04:54:28 --> Undefined variable $id
+#0 C:\xampp\htdocs\simag\app\Views\peserta\absensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/absensi...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(167): view('peserta/absensi...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->dataAbsen()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 05:10:22 --> Undefined variable $user
+#0 C:\xampp\htdocs\simag\app\Views\peserta\detailAbsen.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/detailA...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(181): view('peserta/detailA...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->detailAbsen('68')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 05:12:15 --> Undefined variable $data
+#0 C:\xampp\htdocs\simag\app\Views\peserta\detailAbsen.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/detailA...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(181): view('peserta/detailA...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->detailAbsen('68')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:02:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\peserta\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('peserta/detailA...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('peserta/detailA...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:03:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:03:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:07:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-16 07:08:34 --> Unknown column 'userId' in 'where clause'
+CRITICAL - 2022-04-16 07:08:34 --> Unknown column 'userId' in 'where clause'
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(139): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-16 07:09:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:09:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:16:15 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\dataabsen.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/data...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(133): view('pembimbing/data...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->dataAbsen()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:17:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('68')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:21:33 --> Undefined array key "acid"
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('68')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:23:59 --> Undefined array key "acid"
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\detailAbsen.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(146): view('pembimbing/deta...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailAbsen('68')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:31:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\admin\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('admin/detailAbs...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Admin.php(236): view('admin/detailAbs...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 07:31:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\admin\detailAbsen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('admin/detailAbs...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Admin.php(236): view('admin/detailAbs...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->detailAbsen('35')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-16 21:08:16 --> Column 'latitude' cannot be null
+CRITICAL - 2022-04-16 21:08:16 --> Column 'latitude' cannot be null
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-16 21:08:37 --> Column 'latitude' cannot be null
+CRITICAL - 2022-04-16 21:08:37 --> Column 'latitude' cannot be null
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-16 21:08:48 --> Column 'latitude' cannot be null
+CRITICAL - 2022-04-16 21:08:48 --> Column 'latitude' cannot be null
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-16 21:12:41 --> Column 'latitude' cannot be null
+CRITICAL - 2022-04-16 21:12:41 --> Column 'latitude' cannot be null
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-16 21:14:50 --> Column 'latitude' cannot be null
+CRITICAL - 2022-04-16 21:14:50 --> Column 'latitude' cannot be null
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-16 21:16:14 --> Column 'latitude' cannot be null
+CRITICAL - 2022-04-16 21:16:14 --> Column 'latitude' cannot be null
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addAbsen()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-16 09:29:23 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:23 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:24 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:25 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:26 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:27 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:28 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:29 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:30 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:31 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:32 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:29:33 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:36:31 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(110): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 09:37:14 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(110): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 09:37:33 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(110): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 09:39:24 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:25 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:26 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:27 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:28 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:29 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:30 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:39:42 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(110): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 09:40:14 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(110): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 09:40:17 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(110): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 09:42:47 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:42:48 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:42:49 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\simag\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Peserta/getAbse...')
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Peserta/getAbse...')
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:43:16 --> There is no data to update.
+#0 C:\xampp\htdocs\simag\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\simag\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\simag\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(112): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-16 09:45:31 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`absen`, CONSTRAINT `absen_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-04-16 09:45:31 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`absen`, CONSTRAINT `absen_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-16 09:54:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 09:55:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Peserta->addLokasi()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

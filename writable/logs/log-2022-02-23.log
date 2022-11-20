@@ -1,0 +1,31 @@
+CRITICAL - 2022-02-23 09:40:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(48): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 09:49:56 --> Invalid file: pembimbing/detailpeserta.php
+#0 C:\xampp\htdocs\simag\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembimbing/deta...')
+#1 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/deta...', Array, true)
+#2 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(70): view('pembimbing/deta...')
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailPeserta('29')
+#4 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-23 09:50:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\simag\app\Views\admin\detailpeserta.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('admin/detailpes...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(70): view('admin/detailpes...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->detailPeserta('Viona Febriana-...')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

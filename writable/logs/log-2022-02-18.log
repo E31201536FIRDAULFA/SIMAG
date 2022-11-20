@@ -1,0 +1,74 @@
+CRITICAL - 2022-02-18 04:20:51 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 04:23:47 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 04:23:47 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 04:24:52 --> Too few arguments to function App\Controllers\AktivitasHarian::editAktivitas(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AktivitasHarian->editAktivitas()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AktivitasHarian))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-18 04:49:36 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-18 04:49:36 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Registrasi.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Registrasi->index()
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#11 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-18 04:50:04 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-18 04:50:04 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\simag\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\simag\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\simag\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\simag\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Registrasi.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Registrasi->index()
+#10 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#11 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-18 04:52:16 --> Undefined array key "access_token"
+#0 C:\xampp\htdocs\simag\app\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 05:03:40 --> Undefined array key ""
+#0 C:\xampp\htdocs\simag\app\Views\profil.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('profil', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Profil.php(20): view('profil')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

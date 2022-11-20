@@ -1,0 +1,31 @@
+CRITICAL - 2022-03-21 10:42:56 --> Undefined variable $nama
+#0 C:\xampp\htdocs\simag\app\Views\admin\editpembimbing.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('admin/editpembi...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Admin.php(139): view('admin/editpembi...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->editPembimbing('48')
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 10:48:07 --> Too few arguments to function App\Controllers\Admin::editPembimbing(), 0 passed in C:\xampp\htdocs\simag\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Admin->editPembimbing()
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 23:41:16 --> Attempt to read property "startDate" on array
+#0 C:\xampp\htdocs\simag\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->getUser()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 23:41:17 --> Attempt to read property "startDate" on array
+#0 C:\xampp\htdocs\simag\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->getUser()
+#2 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

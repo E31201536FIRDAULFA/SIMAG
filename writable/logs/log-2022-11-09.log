@@ -1,0 +1,38 @@
+CRITICAL - 2022-11-09 20:55:23 --> syntax error, unexpected token "->"
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 3 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 20:56:38 --> syntax error, unexpected token "->"
+in APPPATH\Views\peserta\notif.php on line 12.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/notif.php', [], true)
+ 3 APPPATH\Controllers\Notif.php(25): view('peserta/notif.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Notif->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 21:28:49 --> Undefined variable $user
+in APPPATH\Controllers\Peserta.php on line 240.
+ 1 APPPATH\Controllers\Peserta.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Peserta.php', 240)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->tambahAktivitas()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 22:01:45 --> Invalid file: peserta/nilai.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peserta/nilai.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('peserta/nilai.php', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(274): view('peserta/nilai.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai('38')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

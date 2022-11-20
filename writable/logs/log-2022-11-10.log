@@ -1,0 +1,1202 @@
+CRITICAL - 2022-11-10 07:13:55 --> Undefined array key "acid"
+in APPPATH\Views\pembimbing\report.php on line 44.
+ 1 APPPATH\Views\pembimbing\report.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "acid"', 'APPPATH\\Views\\pembimbing\\report.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(297): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 07:14:15 --> Undefined array key "acid"
+in APPPATH\Views\pembimbing\report.php on line 44.
+ 1 APPPATH\Views\pembimbing\report.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "acid"', 'APPPATH\\Views\\pembimbing\\report.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(297): view('pembimbing/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 07:14:36 --> Cannot use [] for reading
+in APPPATH\Views\pembimbing\report.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-10 07:14:49 --> syntax error, unexpected token ";"
+in APPPATH\Views\pembimbing\report.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/report.php', [], true)
+ 3 APPPATH\Controllers\Pembimbing.php(297): view('pembimbing/report.php')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->report()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:05:52 --> Undefined variable $belumsetuju
+in APPPATH\Views\pembimbing\datanilai.php on line 29.
+ 1 APPPATH\Views\pembimbing\datanilai.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $belumsetuju', 'APPPATH\\Views\\pembimbing\\datanilai.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(306): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:25 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:24:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:24:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:25:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:25:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:25:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:25:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:25:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:25:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:25:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'simag', 3306, '', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\simag\app\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-10 23:25:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absen`
+WHERE `date` = :date:
+AND `user_id` IS NULL', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Peserta.php(126): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Peserta->getAbsen()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 18:27:57 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-10 19:11:11 --> Call to a member function get() on null
+in APPPATH\Controllers\Pembimbing.php on line 329.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:11:54 --> Call to undefined method App\Models\NilaiModel::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Pembimbing.php(329): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:15:35 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(335): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:17:41 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(335): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:19:15 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(335): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:19:17 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(335): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:20:07 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(335): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:21:31 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(339): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:25:29 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:27:14 --> Undefined variable $data
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:30:27 --> Undefined variable $data
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:30:42 --> Undefined variable $data
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(340): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 19:33:04 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(339): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 20:22:05 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(339): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 20:28:50 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(339): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 20:46:32 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 20:47:55 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 37.
+ 1 APPPATH\Views\pembimbing\datanilai.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 20:48:15 --> Undefined variable $i
+in APPPATH\Views\pembimbing\datanilai.php on line 39.
+ 1 APPPATH\Views\pembimbing\datanilai.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'APPPATH\\Views\\pembimbing\\datanilai.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 20:48:40 --> Undefined array key "useId"
+in APPPATH\Views\pembimbing\datanilai.php on line 40.
+ 1 APPPATH\Views\pembimbing\datanilai.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "useId"', 'APPPATH\\Views\\pembimbing\\datanilai.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 21:10:03 --> Undefined variable $value
+in APPPATH\Views\pembimbing\datanilai.php on line 52.
+ 1 APPPATH\Views\pembimbing\datanilai.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\pembimbing\\datanilai.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:20:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`)) in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ni...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-10 23:20:07 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:37:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`)) in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ni...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-10 23:37:12 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:37:24 --> Undefined variable $pendaftar
+in APPPATH\Views\pembimbing\datanilai.php on line 17.
+ 1 APPPATH\Views\pembimbing\datanilai.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendaftar', 'APPPATH\\Views\\pembimbing\\datanilai.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:38:56 --> Undefined variable $aktif
+in APPPATH\Views\pembimbing\datanilai.php on line 17.
+ 1 APPPATH\Views\pembimbing\datanilai.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aktif', 'APPPATH\\Views\\pembimbing\\datanilai.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:40:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pembimbing\datanilai.php on line 17.
+ 1 APPPATH\Views\pembimbing\datanilai.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pembimbing\\datanilai.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:40:22 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pembimbing\datanilai.php on line 17.
+ 1 APPPATH\Views\pembimbing\datanilai.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pembimbing\\datanilai.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(342): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:41:54 --> Undefined variable $dat
+in APPPATH\Views\pembimbing\datanilai.php on line 17.
+ 1 APPPATH\Views\pembimbing\datanilai.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dat', 'APPPATH\\Views\\pembimbing\\datanilai.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(346): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:42:05 --> Undefined variable $user
+in APPPATH\Views\pembimbing\datanilai.php on line 25.
+ 1 APPPATH\Views\pembimbing\datanilai.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\pembimbing\\datanilai.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(346): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:47:48 --> Undefined array key "email"
+in APPPATH\Views\pembimbing\datanilai.php on line 25.
+ 1 APPPATH\Views\pembimbing\datanilai.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'APPPATH\\Views\\pembimbing\\datanilai.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(352): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:48:38 --> Undefined array key "email"
+in APPPATH\Views\pembimbing\datanilai.php on line 25.
+ 1 APPPATH\Views\pembimbing\datanilai.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'APPPATH\\Views\\pembimbing\\datanilai.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(352): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:49:08 --> Undefined array key "jenisKelamin"
+in APPPATH\Views\pembimbing\datanilai.php on line 27.
+ 1 APPPATH\Views\pembimbing\datanilai.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenisKelamin"', 'APPPATH\\Views\\pembimbing\\datanilai.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(352): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:50:37 --> Undefined array key "iduser"
+in APPPATH\Views\pembimbing\datanilai.php on line 20.
+ 1 APPPATH\Views\pembimbing\datanilai.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'APPPATH\\Views\\pembimbing\\datanilai.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(352): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 23:50:50 --> Undefined variable $nilai
+in APPPATH\Views\pembimbing\datanilai.php on line 17.
+ 1 APPPATH\Views\pembimbing\datanilai.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'APPPATH\\Views\\pembimbing\\datanilai.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pembimbing\\datanilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pembimbing/datanilai.php', [], true)
+ 5 APPPATH\Controllers\Pembimbing.php(352): view('pembimbing/datanilai.php')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->lihatnilai()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 23:51:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`)) in C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ni...', 0)
+#1 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+#10 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#11 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\simag\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\simag\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-10 23:51:46 --> Cannot add or update a child row: a foreign key constraint fails (`simag`.`nilai`, CONSTRAINT `nilai_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (\'7\', \'7\', \'7\', \'8\', \'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai` (`pengetahuan`, `keterampilan`, `kemampuan`, `disiplin`, `total`) VALUES (:pengetahuan:, :keterampilan:, :kemampuan:, :disiplin:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Pembimbing.php(294): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pembimbing->nilai()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

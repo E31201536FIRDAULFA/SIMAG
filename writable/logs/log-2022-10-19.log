@@ -1,0 +1,12 @@
+CRITICAL - 2022-10-19 07:36:09 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\spadmin\kasubagtu.php on line 32.
+ 1 APPPATH\Views\spadmin\kasubagtu.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\spadmin\\kasubagtu.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\spadmin\\kasubagtu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('spadmin/kasubagtu', [], true)
+ 5 APPPATH\Controllers\TU.php(36): view('spadmin/kasubagtu')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\TU->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TU))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

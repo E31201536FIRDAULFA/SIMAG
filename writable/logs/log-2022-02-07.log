@@ -1,0 +1,90 @@
+ERROR - 2022-02-07 20:19:10 --> Error connecting to the database: Unknown database 'simag'
+CRITICAL - 2022-02-07 20:19:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'simag'
+#0 D:\htdocs\simag\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\htdocs\simag\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\htdocs\simag\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\htdocs\simag\app\Controllers\Home.php(14): CodeIgniter\Model->__call('get', Array)
+#4 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 20:50:31 --> Class 'App\Controllers\Google_Client' not found
+#0 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#1 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#2 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 20:52:14 --> Class 'Google_Client' not found
+#0 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#1 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#2 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 21:21:10 --> Class 'App\Controllers\Google_Service_Oauth2' not found
+#0 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#1 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#2 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 21:21:32 --> Class 'App\Controllers\Google_Service_Oauth2' not found
+#0 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#1 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#2 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 21:21:44 --> Class 'App\Controllers\Google_Service_Oauth2' not found
+#0 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#1 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#2 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-07 21:39:53 --> Undefined variable: _SESSION
+#0 D:\htdocs\simag\app\Controllers\AuthGoogle.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\htdocs\\simag...', 14, Array)
+#1 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\AuthGoogle->index()
+#2 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+#3 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 21:50:25 --> Undefined variable: user
+#0 D:\htdocs\simag\app\Views\halamanutama.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\htdocs\\simag...', 118, Array)
+#1 D:\htdocs\simag\system\View\View.php(210): include('D:\\htdocs\\simag...')
+#2 D:\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#4 D:\htdocs\simag\app\Controllers\HalamanUtama.php(15): view('halamanutama')
+#5 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\HalamanUtama->index()
+#6 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanUtama))
+#7 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 21:54:15 --> Undefined variable: user
+#0 D:\htdocs\simag\app\Views\halamanutama.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\htdocs\\simag...', 118, Array)
+#1 D:\htdocs\simag\system\View\View.php(210): include('D:\\htdocs\\simag...')
+#2 D:\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#4 D:\htdocs\simag\app\Controllers\HalamanUtama.php(15): view('halamanutama')
+#5 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\HalamanUtama->index()
+#6 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanUtama))
+#7 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 21:57:06 --> Undefined variable: user
+#0 D:\htdocs\simag\app\Views\halamanutama.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\htdocs\\simag...', 118, Array)
+#1 D:\htdocs\simag\system\View\View.php(210): include('D:\\htdocs\\simag...')
+#2 D:\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('halamanutama', Array, true)
+#4 D:\htdocs\simag\app\Controllers\HalamanUtama.php(15): view('halamanutama')
+#5 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\HalamanUtama->index()
+#6 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HalamanUtama))
+#7 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 21:58:17 --> The original file is not a valid file.
+#0 D:\htdocs\simag\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\htdocs\simag\app\Controllers\Registrasi.php(48): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/dokume...', '')
+#2 D:\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Registrasi->index()
+#3 D:\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#4 D:\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

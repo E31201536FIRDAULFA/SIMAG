@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-30 20:59:43 --> Undefined array key "userId"
+#0 C:\xampp\htdocs\simag\app\Views\pembimbing\dataabsen.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\simag\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simag\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simag\system\Common.php(1089): CodeIgniter\View\View->render('pembimbing/data...', Array, true)
+#4 C:\xampp\htdocs\simag\app\Controllers\Pembimbing.php(132): view('pembimbing/data...')
+#5 C:\xampp\htdocs\simag\system\CodeIgniter.php(825): App\Controllers\Pembimbing->dataAbsen()
+#6 C:\xampp\htdocs\simag\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembimbing))
+#7 C:\xampp\htdocs\simag\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simag\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
