@@ -21,8 +21,8 @@ class Home extends BaseController
             'user' => $user
         ];
 
-        echo view('templates/header', $data);
-        echo view('halamanutama');
+        echo view('templates/header');
+        echo view('halamanutama', $data);
         echo view('templates/footer');
     }
 

@@ -10,8 +10,9 @@ class AuthFilter implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-        if (!session()->log) {
-            return redirect()->to(base_url(''));
+        if (!session()->get('log')) {
+            session()->setFlashdata('error', 'Oops anda belum login! silahkan login terlebih dahulu.');
+            return redirect()->to(base_url('/'));
         }
     }
 

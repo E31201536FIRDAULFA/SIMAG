@@ -74,13 +74,13 @@
     <hr class="sidebar-divider">
     <?php if (!session()->log) : ?>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('AuthGoogle'); ?>">
+            <a class="nav-link" href="<?= base_url('login'); ?>">
                 <i class="nav-icon fas fa-sign-out-alt"></i> Login
             </a>
         </li>
     <?php else : ?>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('AuthGoogle/logout'); ?>">
+            <a class="nav-link" href="<?= base_url('logout'); ?>">
                 <i class="nav-icon fas fa-sign-out-alt"></i> Keluar
             </a>
         </li>

@@ -31,7 +31,37 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+
+// Admin Routes
+$routes->group('dashboard', ['filter' => 'authGuard'], function ($routes) {
+    $routes->group('admin', ['filter' => 'authGuardAdmin'], function ($routes) {
+        // CRUD Pembimbing
+        $routes->get('/', 'Admin::index');
+        $routes->get('pembimbing', 'Admin::dataPembimbing');
+        $routes->get('pembimbing/add', 'Admin::tambahPembimbing');
+        $routes->post('pembimbing/insert', 'Admin::tambahPembimbing');
+        $routes->get('pembimbing/edit/(:num)', 'Admin::editPembimbing/$1');
+        $routes->post('pembimbing/update/(:num)', 'Admin::editPembimbing/$1');
+        $routes->get('pembimbing/delete/(:num)', 'Admin::hapusPembimbing/$1');
+        // CRUD Peserta
+        $routes->get('peserta', 'Admin::dataPeserta');
+        $routes->get('peserta/terima/(:num)', 'Admin::terimaPeserta/$1');
+        $routes->get('peserta/delete/(:num)', 'Admin::hapusPeserta/$1');
+        $routes->get('peserta/detail/(:num)', 'Admin::detailPeserta/$1');
+        // Absen
+        $routes->get('data/absen', 'Admin::dataAbsen');
+        $routes->get('data/absen/detail/(:num)', 'Admin::detailAbsen/$1');
+        $routes->get('data/absen/koordinat/(:num)', 'Admin::getAbsenKoordinat/$1');
+        // Lainnya
+        $routes->get('data/aktivitas', 'Admin::dataAktivitas');
+        $routes->get('data/proposal/(:num)', 'Admin::bukaProposal/$1');
+        $routes->get('data/pengantar/(:num)', 'Admin::bukaPengantar/$1');
+    });
+});
+// End Admin Routes
+$routes->get('login', 'AuthGoogle::index');
+$routes->get('logout', 'AuthGoogle::logout');
+$routes->get('home', 'Home::index');
 $routes->get('pembimbing/nilai/(:num)', 'Pembimbing::nilai/$1');
 $routes->get('spadmin/pengajuan/(:num)', 'Notif::ajukan/$1');
 $routes->get('pembimbing/nilai/cetak/(:any)/(:num)', 'Pembimbing::cetakPDF/$1/$2');

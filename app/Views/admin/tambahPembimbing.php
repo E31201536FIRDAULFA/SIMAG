@@ -9,13 +9,12 @@
                 </div>
                 <div class="card-body">
                     <!-- display flash data message -->
-                    <?php
-                    if (session()->getFlashdata('failed')) : ?>
-                        <div class="alert alert-danger">
-                            <?php echo session()->getFlashdata('failed') ?>
+                    <?php if (!empty(session()->getFlashdata('error'))) : ?>
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <?php echo session()->getFlashdata('error'); ?>
                         </div>
                     <?php endif; ?>
-                    <form action="" enctype="multipart/form-data" method="POST" onSubmit="return confirm('Apakah anda yakin? Pastikan data yang diisi sudah benar');">
+                    <form action="<?= base_url('dashboard/admin/pembimbing/insert'); ?>" enctype="multipart/form-data" method="POST" onSubmit="return confirm('Apakah anda yakin? Pastikan data yang diisi sudah benar');">
                         <div class="form-group">
                             <label for="nama">Nama</label><small class="text-danger">*</small>
                             <input type="nama" name="nama" class="form-control" id="nama">

@@ -1,0 +1,105 @@
+CRITICAL - 2022-11-20 12:56:06 --> Unclosed '{' on line 36
+in APPPATH\Config\Routes.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 12:59:50 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in C:\Dev\SIMAG\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 888.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('pembimbing/update')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(45): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('dashboard', [...], Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:00:50 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in C:\Dev\SIMAG\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 888.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('pembimbing/update')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(45): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('dashboard', [...], Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:01:26 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in C:\Dev\SIMAG\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 888.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('pembimbing/update')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(45): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('dashboard', [...], Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-11-20 13:01:48 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in C:\Dev\SIMAG\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 888.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('pembimbing/update')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(45): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('dashboard', [...], Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+10 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-11-20 13:01:50 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in C:\Dev\SIMAG\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 888.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('pembimbing/update')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(45): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 APPPATH\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('dashboard', [...], Object(Closure))
+ 6 SYSTEMPATH\CodeIgniter.php(764): require('APPPATH\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:08:39 --> authGuardAdmin filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuardAdmin')
+ 2 SYSTEMPATH\CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authGuardAdmin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:16:16 --> Undefined array key "username"
+in APPPATH\Controllers\AuthGoogle.php on line 48.
+ 1 APPPATH\Controllers\AuthGoogle.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\AuthGoogle.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:16:37 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:37:16 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-20 13:38:35 --> Undefined array key "access_token"
+in APPPATH\Controllers\AuthGoogle.php on line 32.
+ 1 APPPATH\Controllers\AuthGoogle.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'APPPATH\\Controllers\\AuthGoogle.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AuthGoogle->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthGoogle))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

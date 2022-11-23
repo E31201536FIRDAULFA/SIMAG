@@ -14,7 +14,7 @@
 
     <!-- Nav Item - Beranda -->
     <li class="nav-item">
-        <a class="nav-link" href="/Admin">
+        <a class="nav-link" href="<?= base_url('dashboard/admin') ?>">
             <i class="fa fa-home"></i>
             <span>Beranda</span></a>
     </li>
@@ -29,7 +29,7 @@
 
     <!-- Nav Item - data pembimbing -->
     <li class="nav-item">
-        <a class="nav-link" href="/Admin/dataPembimbing">
+        <a class="nav-link" href="<?= base_url('dashboard/admin/pembimbing') ?>">
             <i class="fa fa-edit"></i>
             <span>Data Pembimbing</span>
         </a>
@@ -37,7 +37,7 @@
 
     <!-- Nav Item - Data Peserta -->
     <li class="nav-item">
-        <a class="nav-link" href="/Admin/dataPeserta">
+        <a class="nav-link" href="<?= base_url('dashboard/admin/peserta') ?>">
             <i class="fa fa-folder-open"></i>
             <span>Data Peserta</span>
         </a>
@@ -45,7 +45,7 @@
 
     <!-- Nav Item - Laporan absensi -->
     <li class="nav-item">
-        <a class="nav-link" href="/Admin/dataAbsen">
+        <a class="nav-link" href="<?= base_url('dashboard/admin/data/absen') ?>">
             <i class="fa fa-folder-open"></i>
             <span>Laporan Absensi</span>
         </a>
@@ -53,7 +53,7 @@
 
     <!-- Nav Item - Laporan aktivitas harian-->
     <li class="nav-item">
-        <a class="nav-link" href="/Admin/dataAktivitas">
+        <a class="nav-link" href="<?= base_url('dashboard/admin/data/aktivitas') ?>">
             <i class="fa fa-folder-open"></i>
             <span>Laporan Aktivitas Harian</span>
         </a>
@@ -63,13 +63,13 @@
     <hr class="sidebar-divider">
     <?php if (!session()->log) : ?>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('AuthGoogle'); ?>">
+            <a class="nav-link" href="<?= base_url('login'); ?>">
                 <i class="nav-icon fas fa-sign-out-alt"></i> Login
             </a>
         </li>
     <?php else : ?>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('AuthGoogle/logout'); ?>">
+            <a class="nav-link" href="<?= base_url('logout'); ?>">
                 <i class="nav-icon fas fa-sign-out-alt"></i> Keluar
             </a>
         </li>

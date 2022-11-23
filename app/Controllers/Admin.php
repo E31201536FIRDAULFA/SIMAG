@@ -63,7 +63,6 @@ class Admin extends BaseController
 
     public function tambahPembimbing()
     {
-        $user = session()->userId;
         if (isset($_POST['submit'])) {
             if (!$this->validate([
                 'nama' => [
@@ -82,8 +81,8 @@ class Admin extends BaseController
                     'required', 'valid_email', 'errors' => ['required' => 'email harus diisi', 'valid_email' => 'email tidak valid']
                 ]
             ])) {
-                session()->setFlashdata('failed', 'Maaf! Terdapat kesalahan dalam pengisian data.');
-                return redirect()->to(base_url('Admin/tambahPembimbing'))->withInput();
+                session()->setFlashdata('error', $this->validator->listErrors());
+                return redirect()->back()->withInput();
             }
 
             $data = [
@@ -97,7 +96,7 @@ class Admin extends BaseController
             $userModel = new UserModel();
             $userModel->save($data);
             session()->setFlashdata('success', 'Sukses! Anda berhasil menambahkan data.');
-            return redirect()->to(base_url('Admin/dataPembimbing'));
+            return redirect()->to(base_url('dashboard/admin/pembimbing'));
         }
         echo view('templates/header');
         echo view('templates/sidebarAdmin');
@@ -126,7 +125,7 @@ class Admin extends BaseController
                 ]
             ])) {
                 session()->setFlashdata('failed', 'Maaf! Terdapat kesalahan dalam pengisian data.');
-                return redirect()->to(base_url('Admin/editPembimbing/' . $id))->withInput();
+                return redirect()->to(base_url('dashboard/admin/pembimbing/edit/' . $id))->withInput();
             }
             $data = [
                 'nama' => $this->request->getPost('nama'),
@@ -136,13 +135,13 @@ class Admin extends BaseController
             ];
             $userModel->update($id, $data);
             session()->setFlashdata('success', 'Sukses! Anda berhasil mengubah data.');
-            return redirect()->to(base_url('Admin/dataPembimbing'));
+            return redirect()->to(base_url('dashboard/admin/pembimbing'));
         }
 
-        echo view('templates/header', $data);
+        echo view('templates/header');
         echo view('templates/sidebarAdmin');
         echo view('templates/topbar');
-        echo view('admin/editpembimbing');
+        echo view('admin/editpembimbing', $data);
         echo view('templates/footer');
     }
 
@@ -150,30 +149,42 @@ class Admin extends BaseController
     {
         $userModel = new UserModel();
         $userModel->where('id', $id)->delete();
-        return redirect()->to(base_url('Admin/dataPembimbing'));
+        session()->setFlashData('success', 'user berhasil dihapus!');
+        return $this->response->redirect(site_url('dashboard/admin/pembimbing'));
     }
 
     // Data peserta
     public function dataPeserta()
     {
         $userModel = new UserModel();
-        $aktif = $userModel->where('role', 3)->where('status', 2)->join('info_peserta', 'user.id=info_peserta.userId')
-            ->where('info_peserta.endDate>', date('Y-m-d'))->get()->getResultArray();
-        $deaktif = $userModel->where('role', 3)->where('status', 2)->join('info_peserta', 'user.id=info_peserta.userId')
-            ->where('info_peserta.endDate<=', date('Y-m-d'))->get()->getResultArray();
-        $pendaftar = $userModel->where('role', 3)->join('info_peserta', 'user.id=info_peserta.userId')
-            ->where('status', 1)->get()->getResultArray();
+        $aktif = $userModel->where('role', 3)
+            ->where('status', 1)
+            ->join('info_peserta', 'user.id=info_peserta.userId')
+            ->where('info_peserta.endDate >=', date('Y-m-d'))
+            ->get()
+            ->getResultArray();
+        $deaktif = $userModel->where('role', 3)
+            ->where('status', 1)
+            ->join('info_peserta', 'user.id=info_peserta.userId')
+            ->where('info_peserta.endDate <=', date('Y-m-d'))
+            ->get()
+            ->getResultArray();
+        $pendaftar = $userModel->where('role', 3)
+            ->join('info_peserta', 'user.id=info_peserta.userId')
+            ->where('status', 2)
+            ->get()
+            ->getResultArray();
 
         $data = [
             'pendaftar' => $pendaftar,
             'aktif' => $aktif,
             'deaktif' => $deaktif,
         ];
-
-        echo view('templates/header', $data);
+        //dd($aktif);
+        echo view('templates/header');
         echo view('templates/sidebarAdmin');
         echo view('templates/topbar');
-        echo view('admin/datapeserta.php');
+        echo view('admin/datapeserta.php', $data);
         echo view('templates/footer');
     }
 
@@ -181,17 +192,19 @@ class Admin extends BaseController
     {
         $userModel = new UserModel();
         $data = [
-            'status' => 2
+            'status' => 1
         ];
         $userModel->update($id, $data);
-        return redirect()->to(base_url('Admin/dataPeserta'));
+        session()->setFlashData('success', 'Peserta telah diterima!');
+        return redirect()->to(base_url('dashboard/admin/peserta'));
     }
 
     public function hapusPeserta($id)
     {
         $userModel = new UserModel();
         $userModel->where('id', $id)->delete();
-        return redirect()->to(base_url('Admin/dataPeserta'));
+        session()->setFlashData('success', 'Peserta berhasil dihapus!');
+        return redirect()->to(base_url('dashboard/admin/peserta'));
     }
 
     public function detailPeserta($id)
@@ -201,10 +214,10 @@ class Admin extends BaseController
         $data = [
             'user' => $user
         ];
-        echo view('templates/header', $data);
+        echo view('templates/header');
         echo view('templates/sidebarAdmin');
         echo view('templates/topbar');
-        echo view('admin/detailpeserta');
+        echo view('admin/detailpeserta', $data);
         echo view('templates/footer');
     }
 
@@ -218,10 +231,10 @@ class Admin extends BaseController
             'absen' => $absen
         ];
 
-        echo view('templates/header', $data);
+        echo view('templates/header');
         echo view('templates/sidebarAdmin');
         echo view('templates/topbar');
-        echo view('admin/dataabsen');
+        echo view('admin/dataabsen', $data);
         echo view('templates/footer');
     }
 

@@ -15,7 +15,7 @@
                             <?= session()->getFlashdata('failed') ?>
                         </div>
                     <?php endif; ?>
-                    <form action="/Admin/editPembimbing/<?= $id; ?>" enctype="multipart/form-data" method="POST">
+                    <form action="<?= base_url('dashboard/admin/pembimbing/update/'.$id); ?>" enctype="multipart/form-data" method="POST">
                         <div class="form-group">
                             <label for="nama">nama</label><small class="text-danger">*</small>
                             <input type="nama" name="nama" class="form-control" id="nama" value="<?= $nama; ?>">

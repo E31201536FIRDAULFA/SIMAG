@@ -32,7 +32,7 @@
                                 <td><?= $value['datang']; ?></td>
                                 <td><?= $value['pulang']; ?></td>
                                 <td><?= ($value['datang'] > '07:30:00' ? 'Terlambat' : 'Hadir'); ?></td>
-                                <td><a class="btn btn-primary" href="/Admin/detailAbsen/<?= $value['acid']; ?>" id="<?= $value['id']; ?>"> <i class="fa fa-eye"></i></a></td>
+                                <td><a class="btn btn-primary" href="<?= base_url('dashboard/admin/data/absen/detail/'.$value['acid']); ?>" id="<?= $value['id']; ?>"> <i class="fa fa-eye"></i></a></td>
                             </tr>
                         <?php endforeach ?>
                     </tbody>

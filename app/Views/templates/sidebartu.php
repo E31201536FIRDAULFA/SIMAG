@@ -35,7 +35,7 @@
     <hr class="sidebar-divider">
     <?php if (!session()->log) : ?>
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('AuthGoogle/logout'); ?>">
+            <a class="nav-link" href="<?= base_url('logout'); ?>">
                 <i class="nav-icon fas fa-sign-out-alt"></i> Logout
             </a>
         </li>

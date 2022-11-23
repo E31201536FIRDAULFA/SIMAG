@@ -61,12 +61,12 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">Surat Pengantar</th>
-                                        <td> <a class="btn btn-sm btn-primary" href="/Admin/bukaPengantar/<?= $user['id'] ?>" target="_blank"><span class="fa fa-eye"></span> Lihat</a>
+                                        <td> <a class="btn btn-sm btn-primary" href="<?= base_url('dashboard/admin/data/pengantar/'.$user['id']) ?>" target="_blank"><span class="fa fa-eye"></span> Lihat</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Proposal</th>
-                                        <td> <a class="btn btn-sm btn-primary" href="/Admin/bukaProposal/<?= $user['id'] ?>" target="_blank"><span class="fa fa-eye"></span> Lihat</a>
+                                        <td> <a class="btn btn-sm btn-primary" href="<?= base_url('dashboard/admin/data/pengantar/'.$user['id']) ?>" target="_blank"><span class="fa fa-eye"></span> Lihat</a>
                                         </td>
                                     </tr>
                                 </tbody>

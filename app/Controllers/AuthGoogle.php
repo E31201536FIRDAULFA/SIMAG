@@ -43,29 +43,46 @@ class AuthGoogle extends BaseController
         $user = $userModel->join('info_peserta', 'user.id=info_peserta.userId', 'left')->where('email', $respond['email'])->get()->getRowArray();
         if ($user) {
             if ($user['status'] == 1) {
-                session()->set($user);
-                session()->set('log', true);
-                session()->set('role', $user['role']);
-                switch ($user['role']) {
-                    case '1':
-                        return redirect()->to(base_url('Admin'));
-                        break;
-                    case '2':
-                        return redirect()->to(base_url('Pembimbing'));
-                        break;
-                    case '3':
-                        return redirect()->to(base_url('Notif'));
-                        break;
-                    case '4':
-                        return redirect()->to(base_url('TU'));
-                        break;
-                    default:
-                        # code...
-                        break;
+                $setData = [
+                    'id'        => $user['userId'],
+                    'email'     => $user['email'],
+                    'status'    => $user['status'],
+                    'role'      => $user['role'],
+                    'nama'      => $user['nama'],
+                    'foto'      => $user['foto'],
+                    'WesLogin'  => TRUE,
+                    'log'       => TRUE,
+                ];
+                session()->set($setData);
+                //dd($setData);
+                if ($setData['role'] === '1') {
+                    return redirect()->to(base_url('dashboard/admin'));
+                } elseif ($setData['role'] === '2') {
+                    return redirect()->to('dashboard/pembimbing');
+                } elseif ($setData['role'] === '3') {
+                    return redirect()->to('dashboard/notif');
+                } elseif ($setData['role'] === '4') {
+                    return redirect()->to('dashboard/tu');
                 }
+                //switch ($user['role']) {
+                //    case '1':
+                //        return redirect()->to(base_url('Admin'));
+                //        break;
+                //    case '2':
+                //        return redirect()->to(base_url('Pembimbing'));
+                //        break;
+                //    case '3':
+                //        return redirect()->to(base_url('Notif'));
+                //        break;
+                //    case '4':
+                //        return redirect()->to(base_url('TU'));
+                //        break;
+                //    default:
+                        # code...
+                //        break;
             } else if ($user['status'] == 2) {
                 session()->set($user);
-                session()->set('log', true);
+                session()->set('log', TRUE);
                 session()->set('role', $user['role']);
                 return redirect()->to(base_url('Peserta'));
             }
@@ -78,6 +95,6 @@ class AuthGoogle extends BaseController
     public function logout()
     {
         session()->destroy();
-        return redirect()->to(base_url('Home'));
+        return redirect()->to(base_url('home'));
     }
 }

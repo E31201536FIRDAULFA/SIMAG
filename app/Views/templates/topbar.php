@@ -20,11 +20,11 @@
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                         <?php if (!session()->log) : ?>
-                            <a class="dropdown-item" href="<?= base_url('AuthGoogle'); ?>">
+                            <a class="dropdown-item" href="<?= base_url('login'); ?>">
                                 <i class="nav-icon fas fa-sign-out-alt"></i> Login
                             </a>
                         <?php else : ?>
-                            <a class="dropdown-item" href="<?= base_url('AuthGoogle/logout'); ?>">
+                            <a class="dropdown-item" href="<?= base_url('logout'); ?>">
                                 <i class="nav-icon fas fa-sign-out-alt"></i> Keluar
                             </a>
                         <?php endif ?>

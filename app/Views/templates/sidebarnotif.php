@@ -55,7 +55,7 @@
     <hr class="sidebar-divider">
 
     <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('AuthGoogle/logout'); ?>">
+        <a class="nav-link" href="<?= base_url('logout'); ?>">
             <i class="nav-icon fas fa-sign-out-alt"></i> Keluar
         </a>
     </li>

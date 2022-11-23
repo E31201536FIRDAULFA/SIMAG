@@ -34,7 +34,7 @@
                             <tr>
                                 <td><?= $i;
                                     $i++; ?></td>
-                                <td><a href="/Admin/detailPeserta/<?= $value['userId'] ?>"><?= $value['nama']; ?></a></td>
+                                <td><a href="<?= base_url('dashboard/admin/peserta/detail/'.$value['userId']) ?>"><?= $value['nama']; ?></a></td>
                                 <td><?= $value['date']; ?></td>
                                 <td><?= $value['mulai']; ?></td>
                                 <td><?= $value['selesai']; ?></td>
@@ -63,7 +63,7 @@
                             <tr>
                                 <td><?= $i;
                                     $i++; ?></td>
-                                <td><a href="/Admin/detailPeserta/<?= $value['userId'] ?>"><?= $value['nama']; ?></a></td>
+                                <td><a href="<?= base_url('dashboard/admin/peserta/detail/'.$value['userId']) ?>"><?= $value['nama']; ?></a></td>
                                 <td><?= $value['date']; ?></td>
                                 <td><?= $value['mulai']; ?></td>
                                 <td><?= $value['selesai']; ?></td>
